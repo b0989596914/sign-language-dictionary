@@ -1,0 +1,79 @@
+############################################
+# 不上傳子資料夾裡的 .gitignore（規則都合併到這裡）
+############################################
+front/.gitignore
+back/.gitignore
+
+############################################
+# 系統與編輯器
+############################################
+desktop.ini
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+############################################
+# 前端（front/）
+############################################
+front/node_modules/
+front/dist/
+front/.env.local
+front/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################################
+# 後端（back/）
+############################################
+back/target/
+!back/.mvn/wrapper/maven-wrapper.jar
+back/HELP.md
+back/build/
+back/.jpb/
+
+# STS / NetBeans
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# 不可公開：含密碼與正式環境設定
+back/src/main/resources/application.yml
+back/src/main/resources/application-*.yml
+!back/src/main/resources/application.example.yml
+
+# 執行紀錄
+*.log
+*_log.txt
+nohup.out
+
+# 上傳與暫存檔案
+back/uploads/
+back/temp_folder/
+# 正式站仍在運作：後端 API、安全設定、前端路由權限與部署設定不公開
+back/src/main/java/com/project/demo/config/
+back/src/main/java/com/project/demo/controller/
+back/src/main/java/com/project/demo/testWeb/
+front/src/router/index.js
+front/src/utils/auth.js
+front/src/utils/axios.js
+front/vue.config.js
+front/.env

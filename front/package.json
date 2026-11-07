@@ -1,0 +1,51 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "bootstrap-vue": "^2.23.1",
+    "bootstrap-vue-next": "^0.30.2",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "d3": "^7.9.0",
+    "express": "^4.21.2",
+    "gojs": "^2.3.11",
+    "gojs-vue": "^1.0.1",
+    "html2canvas": "^1.4.1",
+    "jquery": "^3.7.1",
+    "jspdf": "^2.5.2",
+    "page-flip": "^2.0.7",
+    "pdfjs-dist": "^2.16.105",
+    "pinia": "^3.0.2",
+    "qs": "^6.13.1",
+    "swiper": "^11.1.15",
+    "turn.js": "^1.0.5",
+    "video.js": "^8.23.3",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue": "^3.5.13",
+    "vue-axios": "^3.5.2",
+    "vue-multiselect": "^3.2.0",
+    "vue-router": "^4.2.4",
+    "vue-turnstile": "^1.0.11",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@types/jquery": "^3.5.32",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "axios": "^1.7.9",
+    "http-proxy-middleware": "^2.0.6",
+    "prettier": "^2.4.1",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.88.2"
+  }
+}
